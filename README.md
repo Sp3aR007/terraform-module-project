@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-is repository contains a **modular Terraform infrastructure project** designed using best practices for **scalability, security, and reusability**.
+This repository contains a **modular Terraform infrastructure project** designed using best practices for **scalability, security, and reusability**.
 
 The infrastructure is split into independent Terraform modules and uses an **S3 remote backend** for centralized and safe state management.
 
