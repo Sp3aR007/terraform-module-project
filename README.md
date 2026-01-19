@@ -181,10 +181,21 @@ Proper IAM permissions
 Remote backend (AWS S3 recommended)
 
 🧪 Terraform Commands
+
+Initialize Terraform:
 ```
 terraform init
+```
+Validate configuration:
+```
 terraform validate
+```
+Preview changes:
+```
 terraform plan
+```
+Apply infrastructure:
+```
 terraform apply
 ```
 
