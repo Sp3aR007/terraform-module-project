@@ -21,7 +21,7 @@ Each module is designed to be loosely coupled and configurable via input variabl
 ## 🏗️ Architecture Overview
 
 The high-level architecture follows this flow:
-
+`
 Internet
 |
 Load Balancer
@@ -31,7 +31,7 @@ Frontend Instances
 Backend Instances
 |
 Database
-
+`
 
 
 - **Bastion Host** provides secure SSH access
@@ -43,7 +43,7 @@ Database
 ---
 
 ## 📂 Repository Structure
-
+`
 terraform-module-project/
 |-- modules
 |   |-- backend
@@ -53,7 +53,7 @@ terraform-module-project/
 |   |-- loadbalancer
 |   `-- network
 `-- terraform
-
+`
 
 
 ---
